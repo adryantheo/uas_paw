@@ -15628,7 +15628,18 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card card-default" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("List Jobs")])
+            _c("div", { staticClass: "card-header" }, [
+              _vm._v(
+                "\r\n                    List Jobs\r\n                    "
+              ),
+              _c(
+                "button",
+                { staticClass: "btn btn-sm btn-primary float-right" },
+                [_vm._v("Tambah Pekerjaan")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" })
           ])
         ])
       ])
