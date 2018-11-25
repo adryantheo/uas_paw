@@ -36,7 +36,7 @@
 						        <img src="https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png" class="img-responsive">
 					        </div>
 					         <div class="details">
-						        <h2>Leon - <span>Website Designer</span></h2>
+						        <h2>Leon - <span>Frontend</span></h2>
                                 <p>IDK</p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
@@ -52,8 +52,8 @@
 						        <img src="https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png" class="img-responsive">
 					        </div>
 					         <div class="details">
-						        <h2>Theo - <span>Website Designer</span></h2>
-                                <p>IDK</p>
+						        <h2>Theo - <span>Backend</span></h2>
+                                <p>Mediocre Kid</p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>
@@ -69,6 +69,22 @@
 					        </div>
 					         <div class="details">
 						        <h2>Yoga - <span>Website Designer</span></h2>
+                                <p>IDK</p>
+                                <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
+					         </div>
+                         </div>
+                    </div>
+                </div>
+                    <br>
+
+                    <div class="row justify-content-center">
+                    <div class="col-sm-8">
+						<div class="card text-center">                
+					        <div class="image">
+						        <img src="https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png" class="img-responsive">
+					        </div>
+					         <div class="details">
+						        <h2>Joshua - <span>Website Designer</span></h2>
                                 <p>IDK</p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>

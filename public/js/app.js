@@ -15455,7 +15455,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "details" }, [
                   _c("h2", [
                     _vm._v("Leon - "),
-                    _c("span", [_vm._v("Website Designer")])
+                    _c("span", [_vm._v("Frontend")])
                   ]),
                   _vm._v(" "),
                   _c("p", [_vm._v("IDK")]),
@@ -15490,6 +15490,41 @@ var staticRenderFns = [
                 _c("div", { staticClass: "details" }, [
                   _c("h2", [
                     _vm._v("Theo - "),
+                    _c("span", [_vm._v("Backend")])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Mediocre Kid")]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "www.facebook.com" } }, [
+                    _vm._v("Facebook")
+                  ]),
+                  _vm._v(" | "),
+                  _c("a", { attrs: { href: "www.twitter.com" } }, [
+                    _vm._v("Twitter")
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("div", { staticClass: "row justify-content-center" }, [
+            _c("div", { staticClass: "col-sm-8" }, [
+              _c("div", { staticClass: "card text-center" }, [
+                _c("div", { staticClass: "image" }, [
+                  _c("img", {
+                    staticClass: "img-responsive",
+                    attrs: {
+                      src:
+                        "https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "details" }, [
+                  _c("h2", [
+                    _vm._v("Yoga - "),
                     _c("span", [_vm._v("Website Designer")])
                   ]),
                   _vm._v(" "),
@@ -15524,7 +15559,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "details" }, [
                   _c("h2", [
-                    _vm._v("Yoga - "),
+                    _vm._v("Joshua - "),
                     _c("span", [_vm._v("Website Designer")])
                   ]),
                   _vm._v(" "),
