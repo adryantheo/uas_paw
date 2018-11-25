@@ -5,7 +5,7 @@
                 <div class="card card-default">
                     <div class="card-header">
                     List Jobs
-                    <button class="btn btn-sm btn-primary float-right">Tambah Pekerjaan</button>               
+                    <button class="btn btn-sm btn-primary float-right" @click="btnTambah">Tambah Pekerjaan</button>               
                     </div>
                     <div class="card-body">
                     </div>
@@ -21,3 +21,7 @@
 </div>
     
 </template>
+
+<script>
+    
+</script>

@@ -16,6 +16,7 @@ import Login from './components/Login'
 import Jobs from './components/Jobs'
 import AboutUs from './components/AboutUs'
 import ContactUs from './components/ContactUs'
+import TambahJobs from './components/TambahJobs.vue'
 
 
 
@@ -52,6 +53,11 @@ import ContactUs from './components/ContactUs'
             path: '/aboutus',
             name: 'aboutus',
             component: AboutUs
+        },
+        {
+            path: '/tambahjobs',
+            name: 'tambahjobs',
+            component: TambahJobs
         }
         
       
