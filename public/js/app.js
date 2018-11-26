@@ -14606,63 +14606,32 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c(
-            "div",
-            { staticClass: "row" },
-            _vm._l(_vm.jobs, function(job, index) {
-              return _c(
-                "div",
-                { staticClass: "col-md-4 product-box", on: { key: index } },
-                [
-                  _c(
-                    "router-link",
-                    { attrs: { to: { path: "/jobs/" + _vm.jobs.id } } },
-                    [
-                      _c("h5", [
-                        _c("span", {
-                          domProps: { innerHTML: _vm._s(job.name) }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "button",
-                        {
-                          staticClass:
-                            "col-md-4 btn btn-sm btn-primary float-right"
-                        },
-                        [_vm._v("Register Now")]
-                      )
-                    ]
-                  )
-                ],
-                1
-              )
-            })
-          )
-        ])
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "container-fluid hero-section d-flex align-content-center justify-content-center flex-wrap ml-auto"
-      },
-      [_c("h2", { staticClass: "title" }, [_vm._v("FindJobs")])]
-    )
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass:
+            "container-fluid hero-section d-flex align-content-center justify-content-center flex-wrap ml-auto"
+        },
+        [_c("h2", { staticClass: "title" }, [_vm._v("FindJobs")]), _c("br")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-8 offset-md-2" }, [
+        _c("img", {
+          attrs: {
+            src:
+              "https://jogjascrummy.com/wp-content/uploads/2017/10/yogyakartacity1-1110x550.jpg"
+          }
+        })
+      ])
+    ])
   }
 ]
 render._withStripped = true
