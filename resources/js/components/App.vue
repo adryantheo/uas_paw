@@ -15,7 +15,7 @@
                             <router-link :to="{ name: 'register' }" class="nav-link" v-if="!isLoggedIn">Register</router-link>
                             <router-link :to="{ name: 'jobs' }" class="nav-link" v-if="!isLoggedIn">Jobs</router-link>
                             <router-link :to="{ name: 'aboutus' }" class="nav-link" v-if="!isLoggedIn">About Us</router-link>
-                            <router-link :to="{ name: 'contactus' }" class="nav-link" v-if="!isLoggedIn">Contact Us</router-link>
+                            <router-link :to="{ name: 'testimoni' }" class="nav-link" v-if="!isLoggedIn">Testimoni</router-link>
                             <span v-if="isLoggedIn">
                                 <router-link :to="{ name: 'userboard' }" class="nav-link" v-if="user_type == 0"> Hi, {{name}}</router-link>
                                

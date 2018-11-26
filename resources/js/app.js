@@ -15,7 +15,7 @@ import Register from './components/Register'
 import Login from './components/Login'
 import Jobs from './components/Jobs'
 import AboutUs from './components/AboutUs'
-import ContactUs from './components/ContactUs'
+import Testimoni from './components/Testimoni'
 import TambahJobs from './components/TambahJobs.vue'
 
 
@@ -49,9 +49,9 @@ import TambahJobs from './components/TambahJobs.vue'
             ]
         },
         {
-            path: '/contactus',
-            name: 'contactus',
-            component: ContactUs
+            path: '/testimoni',
+            name: 'testimoni',
+            component: Testimoni
         },
         {
             path: '/aboutus',
