@@ -5,7 +5,7 @@
                 <div class="card card-default">
                     <div class="card-header">
                     List Jobs
-                    <button class="btn btn-sm btn-primary float-right" @click="btnTambah">Tambah Pekerjaan</button>               
+                    <button class="btn btn-sm btn-primary float-right" @click="btnTambah" >Tambah Pekerjaan</button>               
                     </div>
                     <div class="card-body">
                     </div>
@@ -23,5 +23,14 @@
 </template>
 
 <script>
+export default{
+
+    methods:{
+        btnTambah(){
+            this.$router.push({name:'tambahjobs'})
+        }
+    }
+
+}
     
 </script>

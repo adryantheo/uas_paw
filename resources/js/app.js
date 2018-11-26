@@ -42,7 +42,11 @@ import TambahJobs from './components/TambahJobs.vue'
         {
             path: '/jobs',
             name: 'jobs',
-            component: Jobs
+            component: Jobs,
+            children: [
+                
+
+            ]
         },
         {
             path: '/contactus',
@@ -55,10 +59,11 @@ import TambahJobs from './components/TambahJobs.vue'
             component: AboutUs
         },
         {
-            path: '/tambahjobs',
+            path: '/jobs/tambahjobs',
             name: 'tambahjobs',
             component: TambahJobs
         }
+        
         
       
        
