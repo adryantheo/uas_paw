@@ -10,10 +10,10 @@
                     </div>
                 </div>
                 <br>
-
                 <div class="row justify-content-center">
-                    <div class="col-sm-8">
-						<div class="card text-center">                
+                    <div class="col-sm-10 col-md-10">
+						<div class="card text-center">
+                        <br>                
 					        <form>
                             <div class="form-group row">
                                 <label for="Nama" class="col-sm-4 col-form-label text-md-right">Nama</label>
