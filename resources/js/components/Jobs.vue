@@ -8,6 +8,31 @@
                     <button class="btn btn-sm btn-primary float-right" @click="btnTambah" >Tambah Pekerjaan</button>               
                     </div>
                     <div class="card-body">
+                    <table class="table table-bordered" width="100%">
+                        <tr>
+                            
+                            <th>Nama Perusahaan</th>
+                            <th>Nama Pekerjaan</th>
+                            <th>Alamat</th>
+                            <th>No Telepon</th>
+                            <th>Email</th>
+                            <th>Nama Pengguna</th>
+                        </tr>
+                        </table>
+
+                        <table border="bold" width="100%" v-for="jobs of Jobs" v-bind:key="">
+                            <tr>
+
+                            <td>{{jobs.namaT}}</td>
+                            <td> {{jobs.pesan}} </td>
+                            <td>{{jobs.namaT}}</td>
+                            <td> {{jobs.pesan}} </td>
+                            <td>{{jobs.namaT}}</td>
+                            <td> {{jobs.pesan}} </td>                           
+
+                        
+                        </tr>
+                        </table>
                     </div>
 
                   

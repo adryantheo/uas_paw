@@ -6,7 +6,23 @@
                     <div class="card-header">Testimoni</div>
 
                     <div class="card-body">
+                       <table class="table table-bordered" width="100%">
+                        <tr>
+                            
+                            <th width="30%">Nama</th>
+                            <th>Pesan</th>
+                        </tr>
+                        </table>
+
+                        <table border="bold" width="100%" v-for="testimoni of Testimoni" v-bind:key="">
+                            <tr>
+
+                            <td width="40%">{{testimoni.namaT}}</td>
+                            <td width="50%"> {{testimoni.pesan}} </td>                           
+
                         
+                        </tr>
+                        </table> 
                     </div>
                 </div>
                 <br>
@@ -42,11 +58,8 @@
                          </div>
                     </div>
                 </div>
-                    <br>
-
-                                   
-
-                    
+                    <br>                               
+                  
                     
                     
 				

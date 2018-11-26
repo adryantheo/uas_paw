@@ -20,8 +20,8 @@
 						        <img src="https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png" class="img-responsive">
 					        </div>
 					         <div class="details">
-						        <h2>Olin - <span>Website Designer</span></h2>
-                                <p>IDK</p>
+						        <h2>Olyne - <span>Website Designer</span></h2>
+                                <p> Do your best at any moment that you have. </p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>
@@ -37,7 +37,7 @@
 					        </div>
 					         <div class="details">
 						        <h2>Leon - <span>Frontend</span></h2>
-                                <p>IDK</p>
+                                <p> It is a beautifull thing when a career and a passion come together.</p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>
@@ -53,7 +53,7 @@
 					        </div>
 					         <div class="details">
 						        <h2>Theo - <span>Backend</span></h2>
-                                <p>Mediocre Kid</p>
+                                <p> Mediocre Kid</p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>
@@ -69,7 +69,7 @@
 					        </div>
 					         <div class="details">
 						        <h2>Yoga - <span>Website Designer</span></h2>
-                                <p>IDK</p>
+                                <p> Learn from the mistakes in the past, try by using a different way, and always hope for a successful future. </p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>
@@ -85,7 +85,7 @@
 					        </div>
 					         <div class="details">
 						        <h2>Joshua - <span>Website Designer</span></h2>
-                                <p>IDK</p>
+                                <p> Live with passion today and every day. </p>
                                 <a href="www.facebook.com">Facebook</a> | <a href="www.twitter.com">Twitter</a>
 					         </div>
                          </div>

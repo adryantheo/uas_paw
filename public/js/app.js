@@ -15138,6 +15138,31 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 
@@ -15173,13 +15198,67 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "card-body" })
+          _c(
+            "div",
+            { staticClass: "card-body" },
+            [
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._l(_vm.Jobs, function(jobs) {
+                return _c(
+                  "table",
+                  { attrs: { border: "bold", width: "100%" } },
+                  [
+                    _c("tr", [
+                      _c("td", [_vm._v(_vm._s(jobs.namaT))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(" " + _vm._s(jobs.pesan) + " ")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(jobs.namaT))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(" " + _vm._s(jobs.pesan) + " ")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(jobs.namaT))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(" " + _vm._s(jobs.pesan) + " ")])
+                    ])
+                  ]
+                )
+              })
+            ],
+            2
+          )
         ])
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "table",
+      { staticClass: "table table-bordered", attrs: { width: "100%" } },
+      [
+        _c("tr", [
+          _c("th", [_vm._v("Nama Perusahaan")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Nama Pekerjaan")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Alamat")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("No Telepon")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Email")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Nama Pengguna")])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -15287,11 +15366,13 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "details" }, [
                   _c("h2", [
-                    _vm._v("Olin - "),
+                    _vm._v("Olyne - "),
                     _c("span", [_vm._v("Website Designer")])
                   ]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("IDK")]),
+                  _c("p", [
+                    _vm._v(" Do your best at any moment that you have. ")
+                  ]),
                   _vm._v(" "),
                   _c("a", { attrs: { href: "www.facebook.com" } }, [
                     _vm._v("Facebook")
@@ -15326,7 +15407,11 @@ var staticRenderFns = [
                     _c("span", [_vm._v("Frontend")])
                   ]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("IDK")]),
+                  _c("p", [
+                    _vm._v(
+                      " It is a beautifull thing when a career and a passion come together."
+                    )
+                  ]),
                   _vm._v(" "),
                   _c("a", { attrs: { href: "www.facebook.com" } }, [
                     _vm._v("Facebook")
@@ -15361,7 +15446,7 @@ var staticRenderFns = [
                     _c("span", [_vm._v("Backend")])
                   ]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("Mediocre Kid")]),
+                  _c("p", [_vm._v(" Mediocre Kid")]),
                   _vm._v(" "),
                   _c("a", { attrs: { href: "www.facebook.com" } }, [
                     _vm._v("Facebook")
@@ -15396,7 +15481,11 @@ var staticRenderFns = [
                     _c("span", [_vm._v("Website Designer")])
                   ]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("IDK")]),
+                  _c("p", [
+                    _vm._v(
+                      " Learn from the mistakes in the past, try by using a different way, and always hope for a successful future. "
+                    )
+                  ]),
                   _vm._v(" "),
                   _c("a", { attrs: { href: "www.facebook.com" } }, [
                     _vm._v("Facebook")
@@ -15431,7 +15520,7 @@ var staticRenderFns = [
                     _c("span", [_vm._v("Website Designer")])
                   ]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("IDK")]),
+                  _c("p", [_vm._v(" Live with passion today and every day. ")]),
                   _vm._v(" "),
                   _c("a", { attrs: { href: "www.facebook.com" } }, [
                     _vm._v("Facebook")
@@ -15845,7 +15934,36 @@ var render = function() {
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row justify-content-center" }, [
       _c("div", { staticClass: "col-md-8" }, [
-        _vm._m(0),
+        _c("div", { staticClass: "card card-default" }, [
+          _c("div", { staticClass: "card-header" }, [_vm._v("Testimoni")]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "card-body" },
+            [
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._l(_vm.Testimoni, function(testimoni) {
+                return _c(
+                  "table",
+                  { attrs: { border: "bold", width: "100%" } },
+                  [
+                    _c("tr", [
+                      _c("td", { attrs: { width: "40%" } }, [
+                        _vm._v(_vm._s(testimoni.namaT))
+                      ]),
+                      _vm._v(" "),
+                      _c("td", { attrs: { width: "50%" } }, [
+                        _vm._v(" " + _vm._s(testimoni.pesan) + " ")
+                      ])
+                    ])
+                  ]
+                )
+              })
+            ],
+            2
+          )
+        ]),
         _vm._v(" "),
         _c("br"),
         _vm._v(" "),
@@ -15962,11 +16080,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card card-default" }, [
-      _c("div", { staticClass: "card-header" }, [_vm._v("Testimoni")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "card-body" })
-    ])
+    return _c(
+      "table",
+      { staticClass: "table table-bordered", attrs: { width: "100%" } },
+      [
+        _c("tr", [
+          _c("th", { attrs: { width: "30%" } }, [_vm._v("Nama")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Pesan")])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
