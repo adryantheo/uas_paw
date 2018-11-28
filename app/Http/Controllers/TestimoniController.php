@@ -8,28 +8,26 @@ class TestimoniController extends Controller
 {
     public function index()
     {
-        return response()->json(Jobs::all(),200);
+        
+        return Testimoni::all();
     }
 
     public function store(Request $request)
     {
-        $testimoni = Testimoni::create([
-            'namaT' => $request->namaT,
-            'pesan' => $request->pesan
-            
-        ]);
+        $testimoni = new Testimoni;
+        $testimoni->namaT = $request->namaT;
+        $testimoni->pesan = $request->pesan;
 
-        return response()->json([
-            'status' => (bool) $jobs,
-            'data'   => $jobs,
-            'message' => $jobs ? 'Pekerjaan berhasil ditambahkan!' : 'Pekerjaan Gagal Ditambahkan'
-        ]);
+        $success = $testimoni->save();
+
+        if(!$success){
+            return response()->json('Error Saving',500);
+        }else{
+            return response()->json('Sukses',201);
+        }
     }
 
-    public function show(Testimoni $testimoni)
-    {
-        return response()->json($jobs,200); 
-    }
+ 
 
     
 
